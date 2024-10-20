@@ -16,10 +16,14 @@ export default {
         },
         neutral: {
           'grayish-blue': 'hsl(233, 8%, 62%)',
-          'light-grayish,blue': 'hsl(220, 16%, 96%)',
+          'light-grayish-blue': 'hsl(220, 16%, 96%)',
           'very-light-gray': 'hsl(0, 0%, 98%)'
         }
       },
+      backgroundImage: {
+        'hero-mobile': "url('/images/bg-intro-mobile.svg')",
+        'hero-desktop': "url('/images/bg-intro-desktop.svg')"
+      }
     },
   },
   plugins: [],
