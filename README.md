@@ -4,3 +4,5 @@ Tech Stack:
 
 - Bun
 - Vite
+- TailwindCSS
+- AlpineJS
