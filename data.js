@@ -20,3 +20,5 @@ const navItems = [
         "link": "careers"
     }
 ]
+
+export { navItems };
