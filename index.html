@@ -12,9 +12,10 @@
 
 <body x-data="alpineData" class="bg-neutral-very-light-gray">
 
-  <header class="relative z-50 md:max-w-5xl md:mx-auto">
-    <div class="flex items-center justify-between p-6 md:p-4 bg-white">
-      <img src="/images/logo-header.svg" alt="logo" class="">
+  <header class="relative bg-white z-50">
+
+    <div class="flex items-center justify-between p-6 md:max-w-5xl md:mx-auto md:p-4">
+      <img src="/images/logo-header.svg" alt="logo">
 
       <!-- toggle mobile navigation -->
       <button @click="isMobileMenuOpen = !isMobileMenuOpen; console.log('Mobile Menu Open:', isMobileMenuOpen)"
@@ -76,13 +77,14 @@
   <main>
     <section>
       <div class="flex">
-        <div class="relative md:order-2">
-          <img src="/images/bg-intro-mobile.svg" alt="image-background" class="absolute -top-[34px] md:hidden">
-          <img src="/images/bg-intro-desktop.svg" alt="image-background" class="hidden md:block md:-top-[10px]">
+
+        <div class="md:hidden">
+          <img src="/images/bg-intro-mobile.svg" alt="image-background" class="absolute -top-[0px]">
           <img src="/images/image-mockups.png" alt="image-mockups"
-            class="absolute -top-[134px] left-1/2 transform -translate-x-1/2 md:w-[600px] md:-top-[90px]">
+            class="absolute -top-[52px] left-1/2 transform -translate-x-1/2 w-[340px]">
         </div>
-        <div class="text-center space-y-6 pt-[354px] px-6 pb-16 md:pt-0 md:px-0 md:pb-0">
+
+        <div class="text-center space-y-4 pt-[320px] px-6 pb-16 md:pt-0 md:px-0 md:pb-0">
           <h1 class="font-public-sans text-4xl text-primary-dark-blue leading-[2.75rem] font-light">Next generation
             digital
             banking
@@ -93,6 +95,11 @@
             class="bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan rounded-full px-10 py-3 text-sm font-public-sans font-semibold text-white">Request
             Invite</button>
         </div>
+
+        <div>
+
+        </div>
+
       </div>
     </section>
 
